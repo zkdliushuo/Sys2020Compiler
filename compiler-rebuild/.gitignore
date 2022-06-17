@@ -1,4 +1,5 @@
-# 忽略 .o 文件
+#
+#忽略 .o 文件
 *.o
 # 忽略 build/ install/ out/ bin/ lib/文件夹下的所有文件
 build/
@@ -13,3 +14,7 @@ lib/
 reference/
 # 忽略收集产生汇编的文件
 codegen_files/
+debug/
+
+# 忽略io.ll
+# io.ll
